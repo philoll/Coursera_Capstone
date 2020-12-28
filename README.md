@@ -12,10 +12,10 @@ It is hoped that this article can provide clarity for any budding foodie. It can
 
 The analysis will utilise the following sets of data:
 
-1. [Australian Statistical Geography Standard (ASGS)](https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1270.0.55.001Main+Features10018July%202016?OpenDocument): A CSV file that provides a list of all areas in Australia at varying levels, from State, Region, Local Government Areas (LGAs), and Suburbs. In this analysis, LGAs that are listed as a part of Greater Sydney and Greater Melbourne will be considered.
+1. [Australian Statistical Geography Standard (ASGS)](https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1270.0.55.001Main+Features10018July%202016?OpenDocument): A CSV file that provides a list of all areas in Australia at varying levels, from State, Region, Local Government Areas (LGAs), and Suburbs. In this analysis, LGAs that are listed as a part of Greater Sydney and Greater Melbourne will be extracted. This dataset, however, does not provide geocentric coordinates of each LGA and will need to be obtained through other means.
 
-2. [NSW Local Government Areas - Geoscape Administrative Boundaries](https://data.gov.au/data/dataset/f6a00643-1842-48cd-9c2f-df23a3a1dc1e): 2019 Geospatial boundary data for NSW Local Government Areas, including those in Greater Sydney. Will be used for plotting.
+2. [NSW Local Government Areas - Geoscape Administrative Boundaries](https://data.gov.au/data/dataset/f6a00643-1842-48cd-9c2f-df23a3a1dc1e): 2019 Geospatial boundary data for NSW Local Government Areas, including those in Greater Sydney. This will be used for plotting and for retrieving the geocentric coordinates of each LGA.
 
-3. [Vic Local Government Areas - Geoscape Administrative Boundaries](https://data.gov.au/data/dataset/bdf92691-c6fe-42b9-a0e2-a4cd716fa811): 2019 Geospatial boundary data for Victoria Local Government Areas, including those in Greater Melbourne. Will be used for plotting.
+3. [Vic Local Government Areas - Geoscape Administrative Boundaries](https://data.gov.au/data/dataset/bdf92691-c6fe-42b9-a0e2-a4cd716fa811): 2019 Geospatial boundary data for Victoria Local Government Areas, including those in Greater Melbourne. This will be used for plotting and for retrieving the geocentric coordinates of each LGA.
 
-4. [Foursquare API](https://developer.foursquare.com/developer/): Provides data for restaurants and cafes, including venue name, location, and type.
+4. [Foursquare API](https://developer.foursquare.com/developer/): Provides the venue data for this analysis. Venue details such as venue name, location, and type will be extracted. Only venues that are classified as restaurant, cafe, or pub will be considered.
