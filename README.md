@@ -1,4 +1,4 @@
-# Exploring Cuisines in Sydney
+# Exploring Cuisines in Sydney and Melbourne
 
 ## Introduction
 
