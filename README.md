@@ -12,7 +12,7 @@ It is hoped that this article can provide clarity for any budding foodie. It can
 
 The analysis will utilise the following sets of data:
 
-1. [Australian Statistical Geography Standard (ASGS)](https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1270.0.55.001Main+Features10018July%202016?OpenDocument): A CSV file that provides a list of all areas in Australia at varying levels, from State, Region, Local Government Areas (LGAs), and Suburbs. In this analysis, LGAs that are listed as a part of Greater Sydney and Greater Melbourne will be extracted. This dataset, however, does not provide geocentric coordinates of each LGA and will need to be obtained through other means.
+1. [Australian Suburbs Data](https://github.com/michalsn/australian-suburbs): Data in the form of a CSV file or JSON file. Provides a list of all areas in Australia at varying levels, from State, Local Government Area (LGA), and Suburb. In this analysis, LGAs that are listed as a part of Sydney and Melbourne will be extracted. This dataset also includes geocentric coordinates for each suburb. The data was gathered from the 2016 Census and compiled by Github user michalsn.
 
 2. [NSW Local Government Areas - Geoscape Administrative Boundaries](https://data.gov.au/data/dataset/f6a00643-1842-48cd-9c2f-df23a3a1dc1e): 2019 Geospatial boundary data for NSW Local Government Areas, including those in Greater Sydney. This will be used for plotting and for retrieving the geocentric coordinates of each LGA.
 
