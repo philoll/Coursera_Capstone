@@ -49,7 +49,7 @@ Figure 1 shows a breakdown of the various types of venues in each cluster for Sy
 *Table 1. Summary of venue types in each cluster in Sydney.*
 
 | Cluster | Most common venues | Assigned colour |
-| --- | --- | --- |
+| :---: | :--- | :--- |
 | 0 | Take Away: Fast Food, Pizza, Middle Eastern | Dark purple |
 | 1 | Cafés | Purple |
 | 2 | Asian: Chinese, Vietnamese, Filipino | Pink |
@@ -77,7 +77,7 @@ Figure 3 shows a breakdown of the various types of venues in each cluster for Me
 *Table 2. Summary of venue types in each cluster in Melbourne.*
 
 | Cluster | Most common venues | Assigned colour |
-| --- | --- | --- |
+| :---: | :--- | :--- |
 | 0 | Western and Asian: Australian, BBQ, Chinese, South Indian | Dark purple |
 | 1 | Cafés, Other Restaurants | Purple |
 | 2 | Cafés | Pink |
