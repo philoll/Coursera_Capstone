@@ -12,7 +12,7 @@ It is hoped that this article can provide clarity for any budding foodie. It can
 
 The analysis will utilise the following sets of data:
 
-1. [Australian Suburbs Data](https://github.com/michalsn/australian-suburbs): Data in the form of a CSV file or JSON file. Provides a list of all areas in Australia at varying levels, from State, Local Government Area (LGA), and Suburb. In this analysis, LGAs that are listed as a part of Sydney and Melbourne will be extracted. This dataset also includes geocentric coordinates for each suburb. The data was gathered from the 2016 Census and compiled by Github user michalsn.
+1. [Australian Suburbs Data](https://github.com/michalsn/australian-suburbs): Data in the form of a CSV file or JSON file. Provides a list of all areas in Australia at varying levels, from State, Local Government Area (LGA), and Suburb. In this analysis, suburbs that are listed as a part of Sydney and Melbourne will be extracted. This dataset also includes geocentric coordinates for each suburb. The data was gathered from the 2016 Census and compiled by Github user michalsn.
 
 2. [Foursquare API](https://developer.foursquare.com/developer/): Provides the venue data for this analysis. Venue details such as venue name, location, and type will be extracted. Only venues that are classified as restaurant, cafe, or pub will be considered.
 
@@ -76,13 +76,13 @@ Figure 3 shows a breakdown of the various types of venues in each cluster for Me
 
 *Table 2. Summary of venue types in each cluster in Melbourne.*
 
-| Cluster | Most common venues |
-| --- | --- |
-| 0 | Western and Asian: Australian, BBQ, Chinese, South Indian |
-| 1 | Cafés, Other Restaurants |
-| 2 | Cafés |
-| 3 | Pizza, Bakery, Vietnamese |
-| 4 | Cafés |
+| Cluster | Most common venues | Assigned colour |
+| --- | --- | --- |
+| 0 | Western and Asian: Australian, BBQ, Chinese, South Indian | Dark purple |
+| 1 | Cafés, Other Restaurants | Purple |
+| 2 | Cafés | Pink |
+| 3 | Pizza, Bakery, Vietnamese | Orange |
+| 4 | Cafés | Yellow |
 
 Similar to Sydney, cafés were present in all clusters, with Clusters 1, 2 and 5 consisting of cafés as the most common venue type. In addition to cafés, Cluster 1 also included some other restaurants of mixed cuisine. Cluster 0 is defined by Western and Asian cuisine and includes Australian, BBQ, Chines, and South Indian restaurants. Cluster 3 is defined by pizza places and bakeries, with a presence of Vietnamese restaurants included.
 
